@@ -1,188 +1,189 @@
-.body {
+/*==========Common Styles=======*/
+
+body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  color: #434455;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+/*==========/Common Styles=======*/
+
+/*==========Page Header styles=======*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+  line-height: 1.17;
+}
+
+.menu-link {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #ffff;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
   color: #434455;
 }
-ol,
-ul {
-  list-style: none;
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
-.address-section-item {
-  background-color: #ffffff;
-  font-style: normal;
+/*==========/Page Header styles=======*/
+
+/*==========Hero section styles=======*/
+.box-model {
+  background: #2e2f42;
 }
-.address-email-phone {
-  font-style: normal;
-}
-.main-title {
-  color: #ffffff;
+.header {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
   line-height: 1.07;
-  text-align: center;
 }
-.title-section {
-  background-color: #2e2f42;
-  letter-spacing: 0.02em;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.second-title {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-}
-.benefit-text {
-  color: #434455;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  text-align: left;
-}
-.button-order-service {
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  background-color: #4d5ae5;
+.button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
   cursor: pointer;
-  text-align: center;
+  line-height: 1.5;
 }
-.button-order-service:hover,
-:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
-.studio-logo {
-  color: #2e2f42;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+/*==========/Hero section styles=======*/
 
-.upper-logo {
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.nav-buttons {
-  color: #2e2f42;
+/*==========Main content Section 1====*/
+
+.strategy {
   font-weight: 500;
-  text-decoration: none;
+  font-size: 20px;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+  line-height: 1.2;
 }
-.nav-address {
+.our-goal {
+  font-size: 16px;
+  letter-spacing: 0.02em;
   color: #434455;
+  line-height: 1.5;
+}
+
+.confirm-brands {
   font-weight: 400;
-  text-decoration: none;
-  font-style: normal;
+  font-size: 16px;
   letter-spacing: 0.02em;
-}
-.nav-buttons:hover,
-.nav-buttons:focus {
-  color: #404bbf;
+  color: #434455;
 }
 
-.nav-address:hover,
-.nav-address:focus {
-  color: #404bbf;
+.design-practice {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+/*==========/Main content Section 1====*/
 
-.team-title {
+/*==========Main content Section 2====*/
+.ourteam {
+  font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.markguerrero {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  line-height: 1.2;
+}
+.product-designer {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/*==========/Main content Section 2====*/
+
+/*==========Main content Section 3====*/
+.ourportfolio {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+.bankingapp {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
-.team-cards {
-  background-color: #ffffff;
+.app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.team-cards-section {
+
+/*==========/Main content Section 3====*/
+
+/*==========Footer====*/
+
+.logo-footer-part {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  line-height: 1.5;
+}
+.section {
   background-color: #f4f4fd;
 }
-.benefit-title {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-cards-names {
-  color: #2e2f42;
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-card-positions {
-  color: #434455;
-}
-.portfolio-title {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-.portfolio-items {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.portfolio-item text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.lii {
+  background-color: #ffffff;
 }
 .footer {
   background-color: #2e2f42;
-}
-.footer-text {
-  color: #f4f4fd;
-  text-align: left;
-  letter-spacing: 0.02em;
-}
-.footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-.footer-logo-span {
-  font-family: 'Raleway', sans-serif;
-  color: #f4f4fd;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }

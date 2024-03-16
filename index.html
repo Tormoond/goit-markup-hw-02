@@ -3,115 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webstudio</title>
+    <title>WebStudio</title>
+
+    <!--Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Modern Normalize Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Own styles Link-->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./index.html">Portfolio</a></li>
-          <li><a href="./index.html">Contacts </a></li>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link" href="./index.html">Studio</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" href="">Portfolio</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+
+      <address class="address">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
-    <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
 
-        <button type="button">Order Service</button>
+    <!--Main content Hero-->
+    <main>
+      <section class="box-model">
+        <h1 class="header">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
+
+      <!--Main content Section 1-->
       <section>
         <h2>Our benefits</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="strategy">Strategy</h3>
+            <p class="our-goal">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="strategy">Punctuality</h3>
+            <p class="our-goal">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="strategy">Diligence</h3>
+            <p class="our-goal">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="strategy">Technologies</h3>
+            <p class="our-goal">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
+      <!--Main content Section 2-->
+      <section class="section">
+        <h2 class="ourteam">Our Team</h2>
+        <ul>
+          <li class="lii">
+            <img
+              src="./images/our-teams/mark-guerrero.jpg"
+              alt="mark-guerrero-avatar"
+              width="264"
+              height="260"
+            />
+            <h3 class="markguerrero">Mark Guerrero</h3>
+            <p class="product-designer">Product Designer</p>
+          </li>
 
+          <li class="lii">
+            <img
+              src="./images/our-teams/tom-ford.jpg"
+              alt="tom-ford-avatar"
+              width="264"
+              height="260"
+            />
+            <h3 class="markguerrero">Tom Ford</h3>
+            <p class="product-designer">Frontend Developer</p>
+          </li>
+
+          <li class="lii">
+            <img
+              src="./images/our-teams/camila-garcia.jpg"
+              alt="camila-garcia-avatar"
+              width="264"
+              height="260"
+            />
+            <h3 class="markguerrero">Camila Garcia</h3>
+            <p class="product-designer">Marketing</p>
+          </li>
+          <li class="lii">
+            <img
+              src="./images/our-teams/daniel-wilson.jpg"
+              alt="daniel-wilson-avatar"
+              width="264"
+              height="260"
+            />
+            <h3 class="markguerrero">Daniel Wilson</h3>
+            <p class="product-designer">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!--Main content Section 3-->
+
+      <section>
+        <h2 class="ourportfolio">Our Portfolio</h2>
         <ul>
           <li>
             <img
-              src="./images/productdesigner.jpg"
-              alt="prodact-designer"
-              width="264"
-              height="260"
+              src="./images/our-portfolio/banking-up.jpg"
+              alt="banking-up-avatar"
+              width="360"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="bankingapp">Banking App</h3>
+            <p class="app">App</p>
           </li>
           <li>
             <img
-              src="./images/fronteddeveloper.jpg"
-              alt="fronted-dev"
-              width="264"
-              height="260"
+              src="./images/our-portfolio/cashless-payment.jpg"
+              alt="cashless-payment-avatar"
+              width="360"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="bankingapp">Cashless Payment</h3>
+            <p class="app">Marketing</p>
           </li>
           <li>
             <img
-              src="./images/marketing.jpg"
-              alt="marketologist"
-              width="264"
-              height="260"
+              src="./images/our-portfolio/maditation-up.jpg"
+              alt="maditation-up-avatar"
+              width="360"
             />
-
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="bankingapp">Meditation App</h3>
+            <p class="app">App</p>
           </li>
           <li>
             <img
-              src="./images/uidesigner.jpg"
-              alt="designer"
-              width="264"
-              height="260"
+              src="./images/our-portfolio/taxi-servis.jpg"
+              alt="taxi-servis-avatar"
+              width="360"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="bankingapp">Taxi Service</h3>
+            <p class="app">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/screen-illustrations.jpg"
+              alt="screen-illustrations-avatar"
+              width="360"
+            />
+            <h3 class="bankingapp">Screen Illustrations</h3>
+            <p class="app">Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/online-courses.jpg"
+              alt="online-courses-avatar"
+              width="360"
+            />
+            <h3 class="bankingapp">Online Courses</h3>
+            <p class="app">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <!--Footer-->
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-footer-part">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
